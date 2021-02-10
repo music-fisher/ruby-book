@@ -18,7 +18,7 @@ class ConvertHashSyntaxTest < Minitest:: Test
     }
     TEXT
     assert_equal expected, convert_hash_syntax(old_syntax)
-    # 実際に変更されているか
+    # 実際に変更されているか確認
     # actual = convert_hash_syntax(old_syntax)
     # puts actual
     # assert_equal expected, actual
